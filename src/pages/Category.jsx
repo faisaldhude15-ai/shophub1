@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { CartContext } from "../context/CartContext"; // ⚡ CORE FIX: Import CartContext directly
-import "../styles/category.css";
+import "../styles/Category.css";
 
 const Category = () => {
   const { category } = useParams();
